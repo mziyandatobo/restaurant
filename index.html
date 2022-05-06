@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/8840abca9c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="http://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body >
+    <header id="header">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark fixed-navbar bg-black ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mziyanda's Restaurant</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ps-5 ms-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#testimonials">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Specials">Specials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Chef">Chefs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Gallery">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Drop Down
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                  <li><a class="dropdown-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink">Deep Drop Down</a>
+                    <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Drop Down2</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+              <button type="button" class="btn btn-warning">Book a table</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section id="testimonials" class="py-5 mt-5 min-vh-100">
+        <div class="container-1 text-center text-white">
+            <div id="testimonialSlider" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="0" class="active rounded-circle"  style="width: 20px; height: 20px;" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="1" class="rounded-circle"  style="width: 20px; height: 20px;" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="2" class="rounded-circle"  style="width: 20px; height: 20px;"aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner mt-5">
+                  <div class="carousel-item pb-5 text-center active">
+                    <div class="pt-5 mt-5">
+                      <h5>Mziyanda's Restaurant</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                      <button type="button" class="btn btn-outline-warning">Our Menu</button>
+                      <button type="button" class="btn btn-outline-warning">Book A Table</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item pb-5 text-center text-">
+                    <div class="pt-5 mt-5">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                      <button type="button" class="btn btn-outline-warning">Our Menu</button>
+                      <button type="button" class="btn btn-outline-warning">Book A Table</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item pb-5 text-center">
+                    <div class="pt-5 mt-5">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                      <button type="button" class="btn btn-outline-warning">Our Menu</button>
+                      <button type="button" class="btn btn-outline-warning">Book A Table</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialSlider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialSlider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <section id="About" class="vh-100">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="" />
+          </div>
+          <div class="col-md-6">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos suscipit accusamus nulla dolores minima quaerat maxime et laborum nostrum ab repellendus nemo quidem cupiditate laudantium, unde esse sit vel voluptates?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex consequuntur neque nulla sequi, mollitia itaque, voluptates voluptatum ut adipisci nostrum molestiae. Distinctio accusantium excepturi recusandae. Molestiae pariatur atque tenetur quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repudiandae totam dolores rem dolore, tenetur vel! Eos doloremque, eius a veniam aut nihil dolore ratione illum distinctio laborum corrupti itaque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, nemo iste! Soluta cupiditate voluptatibus totam laboriosam adipisci tenetur, quod iste vero numquam voluptate et quis labore animi fugiat eum dolor! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus esse impedit suscipit ut! Perferendis porro soluta voluptas odit, dicta repudiandae fugit, doloremque illo, nam eos ducimus corporis et reprehenderit culpa. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam ex assumenda suscipit, magnam nulla obcaecati nisi officia laboriosam quis aut repellat illo, iste explicabo velit, mollitia aperiam sunt provident ducimus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nostrum numquam consequuntur repudiandae totam recusandae saepe molestiae quis fugiat labore reprehenderit molestias ipsam a, obcaecati veniam earum quaerat voluptatum? Eum. lore</div>
+        </div>
+      </div>
+    </section>
+    <section id="Restaurant" class="vh-100">
+      <div class="container-fluid">
+        <div class="text-center">
+          <h4>HEADING</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            culpa aliquam natus dolorem. Mollitia totam est, corrupti error
+            culpa velit deserunt vel! Atqueodio accusamus neque quo iusto
+            officia alias?
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>01</p>
+            <h5>HEADING</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas
+              sint eveniet asperiores veniam nesciunt fugit. Tenetur incidunt
+              quas ad doloremque dolorem nam mollitia eum sunt! Molestiae dolor
+              rem dolorem!
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>02</p>
+            <h5>HEADING</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas
+              sint eveniet asperiores veniam nesciunt fugit. Tenetur incidunt
+              quas ad doloremque dolorem nam mollitia eum sunt! Molestiae dolor
+              rem dolorem!
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>03</p>
+            <h5>HEADING</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas
+              sint eveniet asperiores veniam nesciunt fugit. Tenetur incidunt
+              quas ad doloremque dolorem nam mollitia eum sunt! Molestiae dolor
+              rem dolorem!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Menu" class="vh-100">
+      <div class="container">
+        <div class="text-center">
+          <h4>HEADING</h4>
+          <button type="button" class="btn btn-outline-warning"></button>
+          <button type="button" class="btn btn-outline-warning"></button>
+          <button type="button" class="btn btn-outline-warning"></button>
+          <button type="button" class="btn btn-outline-warning"></button>
+        </div>
+        <div
+          class="row menu-container"
+          style="position: relative; height: 396px"
+        >
+          <div
+            class="col-lg-6 menu-item filter-starters"
+            style="position: absolute; left: 0px; top: 0px"
+          ></div>
+          ef wcxsza
+        </div>
+      </div>
+    </section>
+    <section id="Specials" class="vh-100">
+      <div class="container row mb-3">
+        <div class="col-lg-3"></div>
+          <div class="text-center col-lg-6">
+            <h4>Check Our Specials</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+              vitae magnam, earum voluptatum architecto ullam maxime voluptas
+              repudiandae accusantium dignissimos nesciunt, ipsum repellendus
+              perferendis hic rem laboriosam id ipsam molestiae.
+            </p>
+          </div>
+    </div>
+      <div class="container">
+        <div class="row">
+            <div class="d-flex align-items-start">
+              <div class="col-lg-2">
+              <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+              </div>
+            </div>
+              <div class="col-lg-6">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                  <div class="row">
+                    <div class="col-lg-10">
+                      <h5>HEADING</h5>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sequi vero enim, sapiente maxime odio a. Necessitatibus, voluptatum, repellendus fuga velit nisi rem quibusdam numquam iusto, eveniet hic recusandae perspiciatis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis vel quos excepturi quasi dolor dolores culpa quae pariatur expedita, exercitationem, sit inventore quaerat eos reprehenderit itaque beatae aspernatur veniam adipisci! 
+                    </div>
+
+                    <div class="col-lg-2">
+                      <img src="/pexels-pixabay-39284.jpg" style="width: 200px; height: 200px;" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  <div class="row">
+                    <div class="col-lg-10">
+                      <h5>HEADING</h5>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sequi vero enim, sapiente maxime odio a. Necessitatibus, voluptatum, repellendus fuga velit nisi rem quibusdam numquam iusto, eveniet hic recusandae perspiciatis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis vel quos excepturi quasi dolor dolores culpa quae pariatur expedita, exercitationem, sit inventore quaerat eos reprehenderit itaque beatae aspernatur veniam adipisci! 
+                    </div>
+
+                    <div class="col-lg-2">
+                      <img src="/pexels-pixabay-39284.jpg" style="width: 200px; height: 200px;" alt="">
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                  <div class="row">
+                    <div class="col-lg-10">
+                      <h5>HEADING</h5>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sequi vero enim, sapiente maxime odio a. Necessitatibus, voluptatum, repellendus fuga velit nisi rem quibusdam numquam iusto, eveniet hic recusandae perspiciatis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis vel quos excepturi quasi dolor dolores culpa quae pariatur expedita, exercitationem, sit inventore quaerat eos reprehenderit itaque beatae aspernatur veniam adipisci! 
+                    </div>
+
+                    <div class="col-lg-2">
+                      <img src="/pexels-pixabay-39284.jpg" style="width: 200px; height: 200px;" alt="">
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <div class="row">
+                    <div class="col-lg-10">
+                      <h5>HEADING</h5>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sequi vero enim, sapiente maxime odio a. Necessitatibus, voluptatum, repellendus fuga velit nisi rem quibusdam numquam iusto, eveniet hic recusandae perspiciatis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis vel quos excepturi quasi dolor dolores culpa quae pariatur expedita, exercitationem, sit inventore quaerat eos reprehenderit itaque beatae aspernatur veniam adipisci! 
+                    </div>
+
+                    <div class="col-lg-2">
+                      <img src="/pexels-pixabay-39284.jpg" style="width: 200px; height: 200px;" alt="">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              </div>
+              
+             
+            </div>
+            </div>            
+          </div>
+    </section>
+    <section id="Events" class="vh-100">
+      <h4 class="text-center mb-5">Organize Your Events In Our Restaurant</h4>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="" />
+          </div>
+          <div class="col-md-6">Container Right</div>
+        </div>
+      </div>
+    </section>
+    </section>
+    <section id="Table" class="vh-100">
+      <div class="container shadow p-3 mb-5 bg-body rounded">
+        <div class="text-center">
+      <h4>Book A Table</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore voluptate numquam iste perspiciatis, dolorem, impedit, accusamus dolorum consectetur iusto nemo voluptatibus? Labore magni ducimus eum, voluptate veritatis illo laboriosam.</p>
+    </div>
+    <form>
+      <div class="row">
+    <div class="mb-3 col-lg-4">
+  <label for="formGroupExampleInput" class="form-label"></label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+</div>
+<div class="mb-3 col-lg-4">
+  <label for="formGroupExampleInput2" class="form-label"></label>
+  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your Email">
+</div>
+<div class="mb-3 col-lg-4">
+  <label for="formGroupExampleInput" class="form-label"></label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Phone">
+</div>
+<div class="mb-3 col-lg-4">
+  <label for="formGroupExampleInput" class="form-label"></label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Date">
+</div>
+<div class="mb-3 col-lg-4">
+  <label for="formGroupExampleInput2" class="form-label"></label>
+  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Time">
+</div>
+<div class="mb-3 col-lg-4">
+  <label for="formGroupExampleInput" class="form-label"></label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="# of people">
+</div>
+</div>
+<div class="form-group mb-3">
+  <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+</div>
+<div class="text-center
+
+mt-1 mb-5 px-5" style="border-radius: 20px;">
+<button type="submit" class="btn btn-primary">Send Message</button>
+</div>
+</form>
+      </div>
+    </section>
+    <section id="Gallery" class="vh-100">
+      <div class="container">
+        <div class="text-center">
+        <h4>Some photos from Our Restaurant</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis saepe officiis culpa praesentium voluptas exercitationem dicta fugit veniam. Illum quod tempora consequuntur reiciendis repellat ipsa velit saepe quae perspiciatis necessitatibus!</p>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-md-3 mt-1">
+          <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-md-3 mt-1">
+          <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-md-3 mt-1">
+          <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-md-3 mt-1">
+          <img src="./pexels-pixabay-39284.jpg" class="w-100" alt="">
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="Chef" class="vh-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3"></div>
+        <div class="text-center col-lg-6 ">
+        <h4>Our Professional Chefs</h4>
+        <p>Lorem ipsum dolor sit um eaque commodi libero quas fugit reiciendis numquam, eveniet assumenda corrupti recusandae voluptas itaque expedita.</p>
+      </div>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="staff">
+              <img class="img-fluid" src="https://picsum.photos/600?random=1" />
+              <div class="staff-details">
+                <h5>Name</h5>
+                <p>Occupation</p>
+                links
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="staff">
+              <img class="img-fluid" src="https://picsum.photos/600?random=2" />
+              <div class="staff-details">
+                <h5>Name</h5>
+                <p>Occupation</p>
+                links
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="staff">
+              <img class="img-fluid" src="https://picsum.photos/600?random=3" />
+              <div class="staff-details">
+                <h5>Name</h5>
+                <p>Occupation</p>
+                links
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section id="testimonials" class="py-5 mt-5 min-vh-100">
+      <div class="container-1 text-center text-white">
+          <h2 class="mb-2 text-center text-dark border border-danger">Testimonials</h2>
+          <div id="testimonialSlider" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="0" class="active rounded-circle"  style="width: 20px; height: 20px;" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="1" class="rounded-circle"  style="width: 20px; height: 20px;" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="2" class="rounded-circle"  style="width: 20px; height: 20px;"aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner mt-5">
+                <div class="carousel-item pb-5 text-center active">
+                  <div>
+                      <img src="/pexels-pixabay-39284.jpg" class="rounded-circle mb-5" style="width: 250px; height: 180px;" alt="Person">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item pb-5 text-center">
+                  <div>
+                      <img src="/pexels-pixabay-39284.jpg" class="rounded-circle mb-5" style="width: 250px; height: 180px;" alt="Person">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item pb-5 text-center">
+                  <div>
+                      <img src="/pexels-pixabay-39284.jpg" class="rounded-circle mb-5" style="width: 250px; height: 180px;" alt="Person">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonialSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonialSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </div>
+  </section>
+    <section id="Contact" class="">
+      <div class="container">
+        <div class="text-center">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorem suscipit mollitia vitae, in quas officiis nobis minus quo culpa. Explicabo, doloremque exercitationem neque eaque accusantium necessitatibus cupiditate quisquam dolor!</p>
+      </div>
+      <div class="container shadow-none p-3 mb-5 bg-body rounded">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.267418954597!2d18.49050991744385!3d-33.985664299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1651737110702!5m2!1sen!2sza" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="row m-auto shadow p-3 mb-5 bg-body rounded">
+        <div class="col-lg-3">
+          <h5> <i class="fa-solid fa-location-dot"></i> Location:</h5>
+          314 Inam Haron Rd
+          <p>Landsdowne, Cape Town 7780</p>
+        </div>
+        <div class="col-lg-3">
+          <h5> <i class="fa-solid fa-clock"></i> Open Hours:</h5>
+          Monday - Friday
+          <p>07:30 - 17:00</p>
+        </div>
+        <div class="col-lg-3">
+          <h5> <i class="fa-solid fa-envelope"></i> Email:</h5>
+          <p>lifechoicesacademy.gmail.com</p>
+        </div>
+        <div class="col-lg-3">
+          <h5> <i class="fa-solid fa-mobile-button"></i> Call:</h5>
+          <p>021 696 4157</p>
+        </div>
+      </div>
+      <div class="row g-3 shadow p-3 mb-5 bg-body rounded">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Your Name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Your Email" aria-label="Last name">
+        </div>
+        <div class="mzi">
+          <input type="text" class="form-control" placeholder="Subject" aria-label="Last name">
+        </div>
+        <div class="form-group mb-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+        </div>
+        <div class="text-center mt-1 mb-5 px-5">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+      </div>
+      </div>
+    </section>
+    <section id="footer" class="vh-100">
+<div class="container">
+<div class="col"></div>
+</div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
+</html>
